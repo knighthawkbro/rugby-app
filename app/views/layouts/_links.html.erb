@@ -1,7 +1,15 @@
-<%= link_to "Home", root_path %>
-<%= link_to "About", static_pages_about_path %>
-<%= link_to "Contact", static_pages_contact_path %>
-<%= link_to "Schedule", static_pages_schedule_path %>
-<%= link_to "Roster", static_pages_roster_path %>
-<%= link_to "Awards", static_pages_awards_path %>
-<%= link_to "Media", static_pages_media_path %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "WIT Rugby", root_path, id: 'logo' %>
+    <nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Schedule", static_pages_schedule_path %></li>
+            <li><%= link_to "Roster", static_pages_roster_path %></li>
+            <li><%= link_to "Awards", static_pages_awards_path %></li>
+            <li><%= link_to "Media", static_pages_media_path %></li>
+        </ul>
+    </nav>
+  </div>
+</header>
+
+    
