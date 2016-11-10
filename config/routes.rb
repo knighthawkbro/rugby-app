@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  # resources :static_pages
+  
   get 'users/new'
 
   # Sets the default homepage when users access https://rugby-project-bradywalsh.c9users.io
