@@ -1,8 +1,19 @@
 <footer class="footer">
-    <nav>
+    <div class="footer-logos">
         <ul>
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Contact", contact_path %></li>
+            <li class = "footer-logo1"><%= image_tag('footer_logo_01.png') %></li>
+            <li class = "footer-logo2"><%= image_tag('footer_logo_02.png') %></li>
+            <li class = "footer-logo3"><%= image_tag('footer_logo_03.png') %></li>
+            <li class = "footer-logo3"><%= image_tag('footer_logo_04.jpg', height: 80, width: 130) %></li>
         </ul>
-    </nav>
+    </div>
+    <br>
+    <div class="footer-text">
+        <nav>
+            <ul>
+                <li><%= link_to "About", about_path %></li>
+                <li><%= link_to "Contact", contact_path %></li>
+            </ul>
+        </nav>
+    </div>
 </footer>
