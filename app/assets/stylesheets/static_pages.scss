@@ -44,12 +44,24 @@ footer{
     margin:auto;
 }
 .footer-logos{
+    display: flex;
     vertical-align:top;
     max-width: 1065px;
     margin: auto;
 }
 .footer-text{
+    text-align: center;
     vertical-align:baseline;
+}
+.team-info{
+    display:table;
+    text-align:center;
+    margin:auto;
+}
+.team-info,.footer-text{
+    width: 100%;
+    background-color:black;
+    color:white;
 }
 .team-logo img{
     height:36px;
