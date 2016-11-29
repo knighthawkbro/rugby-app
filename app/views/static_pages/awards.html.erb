@@ -1,15 +1,17 @@
 <% provide(:title, "Awards") %>
 <h1>Awards</h1>
 
-<%= image_tag('awards_teampic.jpg') %>
-<!-- Was messing with this. Not sure the syntax. Want to add styles to the image.
-    I know this is eRuby but not sure what the src is to get this pic in html.
-    I will meet you in the library with a gameplan.
--->
-<p>Integer enim enim, facilisis id nisi eu, venenatis efficitur velit. Nam sit
-amet ex sed quam rutrum tristique. Curabitur tristique urna vel justo faucibus,
-sed commodo ligula molestie. Phasellus sed odio elit. Proin placerat vehicula
-ipsum sit amet pellentesque. Vivamus auctor massa a tempor lacinia. Nulla
-facilisi. Phasellus id tristique dui. Vivamus nec est nunc. Nunc est sem, porta
-sed pellentesque vel, bibendum lobortis diam. Duis a malesuada tortor. Nunc
-congue nulla at arcu venenatis auctor. </p>
+
+<div class="row">
+    <%= image_tag('awards_teampic.jpg', class: "col-xs-4 col-md-4 col-lg-4 vcenter", id: "team-pic") %>
+    <p class="col-xs-8 col-md-8 col-lg-8 pull-right vcenter">
+    The team’s most recent accomplishment came in the Spring of 2016
+    when the Leopards entered into the Providence, RI “Beast of the East” 
+    tournament. After defeating Mass Maritime 42-19 and Fitchburg State 49-0, 
+    the Men’s team took home their first Championship Plaque in club history.
+    
+    
+    </p>
+    
+    
+</div>
