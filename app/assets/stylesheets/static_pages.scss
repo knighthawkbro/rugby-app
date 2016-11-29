@@ -48,10 +48,21 @@ footer{
     vertical-align:top;
     max-width: 1065px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .footer-text{
     text-align: center;
     vertical-align:baseline;
+}
+
+#footer-links {
+    margin-right: 25px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 .team-info{
     display:table;
@@ -68,4 +79,9 @@ footer{
 }
 .team-logo{
     display:inline-block;
+}
+.twitter-feed{
+    width:300px;
+    max-height: 300px;
+    overflow:scroll;
 }
