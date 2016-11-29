@@ -1,17 +1,20 @@
 <footer class="footer">
     <div class="footer-logos">
         <ul>
-            <li class = "footer-logo1"><%= image_tag('footer_logo_01.png') %></li>
-            <li class = "footer-logo2"><%= image_tag('footer_logo_02.png') %></li>
-            <li class = "footer-logo3"><%= image_tag('footer_logo_03.png') %></li>
-            <li class = "footer-logo3"><%= image_tag('footer_logo_04.jpg', height: 80, width: 130) %></li>
+            <li class = "footer-logo1"><%= link_to image_tag('footer_logo_01.png'), "http://www.ncaa.org/d3" %></li>
+            <li class = "footer-logo2"><%= link_to image_tag('footer_logo_02.png'), "http://cccathletics.com" %></li>
+            <li class = "footer-logo3"><%= link_to image_tag('footer_logo_03.png'), "http://www.thegnac.com" %></li>
+            <li class = "footer-logo3"><%= link_to image_tag('footer_logo_04.jpg', height: 80, width: 130), "http://www.colonialcoastrugby.com/" %></li>
         </ul>
     </div>
-    <span class="team-info">© Wentworth Institute of Technology | 550 Huntington Avenue | Boston, MA 02115 | 617-989-4590</span>
-    <div class="footer-text navbar-nav">
+    
+    <div class="footer-text navbar navbar-fixed-bottom">
+        <span class="team-info">© Wentworth Institute of Technology | 550 Huntington Avenue | Boston, MA 02115 | 617-989-4590</span>
         <nav>
-            <ul>
+            <ul id="footer-links">
                 <li><%= link_to "Home", root_path %></li>
+                <li>|</li>
+                <li><%= link_to "About", about_path %></li>
                 <li>|</li>
                 <li><a href="#top">Go to top</a></li>
             </ul>
